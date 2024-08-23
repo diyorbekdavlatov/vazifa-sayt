@@ -1,0 +1,78 @@
+@media (max-width: 426px) {
+    body {
+        min-width: 396px;
+    }
+    .bg-rgba {
+        width: 390px;
+        margin: 0 auto;
+    }
+    .main {
+        width: 390px;
+        margin-left: 0px;
+    }
+    .wrapper {
+        min-width: 390px;
+        margin-left: 0px;
+    }
+    .wrapper-contact {
+        max-width: 350px;
+        margin-left: 0px;
+    }
+    .rgba__flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .rasimning-flexi {
+        margin: auto;
+    }
+    .profilrasmi {
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    .ismim {
+        padding-bottom: 10px;
+        padding-right: 0px;
+    }
+    .header {
+        display: none;
+    }
+    .main__h1-1 {
+        padding-top: 10px;
+        margin-left: 60px;
+    }
+    .p-wrapper {
+        display: block;
+        margin-left: 14px;
+    }
+    .skills {
+        margin-left: 150px;
+    }
+    .skildiv1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .skildiv2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .divbox {
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .project {
+        padding-bottom: 5px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .contacts {
+        padding-top: 15px;
+        border-top: 3px solid white;
+        padding-bottom: 15px;
+        border-bottom: 3px solid white;
+    }
+}

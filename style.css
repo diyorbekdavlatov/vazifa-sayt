@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, monospace;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Everest_kalapatthar_crop.jpg/640px-Everest_kalapatthar_crop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+.profile {
+    border-radius: 100%;
+    width: 250px;
+    margin-right: 35px;
+}
+.rasmim {
+    border-radius: 100%;
+}
+.bg-rgba {
+    background: rgba(2, 2, 27, 0.818);
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.rgba__flex {
+    display: flex;
+    border-radius: 100%;
+}
+.rasimning-flexi {
+    width: auto;
+}
+.wrapper {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: 40px;
+}
+.wrapper-contact {
+    max-width: 380px;
+    margin-right: auto;
+    margin-left: 60px;
+}
+.p-wrapper {
+    max-width: 850px;
+}
+.profilrasmi {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.rasmim {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    font-family: cursive;
+}
+.ismim {
+    color: white;
+    margin-right: 40px;
+    font-family: cursive;
+    text-wrap: nowrap;
+    padding-bottom: 15px;
+    padding-right: 35px;
+}
+.kasbim {
+    color: white;
+    font-family: cursive;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.educaation {
+    padding-top: 20px;
+    font-family: cursive;
+}
+.education__h2 {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 26px;
+    font-family: cursive;
+}
+.education__edu {
+    color: #fff;
+    font-family: cursive;
+}
+.education__sanalar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    color: rgb(77, 109, 202);
+    font-family: cursive;
+}
+.education__h3 {
+    color: white;
+    text-wrap: balance;
+    padding-bottom: 20px;
+    font-family: cursive;
+}
+.til {
+    border-top: 3px solid white;
+    padding-top: 20px;
+    font-family: cursive;
+}
+.til__til {
+    color: #fff;
+    font-family: cursive;
+}
+.tillarturi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    color: rgb(77, 109, 202);
+    font-family: cursive;
+}
+.til_izox {
+    color: #fff;
+    text-wrap: balance;
+    font-family: cursive;
+}
+
+.bowqismi {
+    padding-top: 15px;
+    font-family: cursive;
+    /* width: 1016px; */
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    width: fit-content;
+    margin-top: 50px;
+    font-family: cursive;
+}
+.list-item {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 28px;
+    font-family: cursive;
+}
+.list-item:hover {
+    border-bottom: 2px solid white;
+    font-family: cursive;
+}
+.list-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-wrap: nowrap;
+    padding-right: 7px;
+    font-family: cursive;
+}
+.list-link:hover {
+    font-size: 20px;
+    color: rgb(77, 109, 202);
+    font-family: cursive;
+}
+.contacts {
+    padding-top: 15px;
+    border-top: 3px solid white;
+    padding-bottom: 15px;
+    border-bottom: 3px solid white;
+    font-family: cursive;
+}
+.contacts__h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
+}
+.icon-c {
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.contact_icon {
+    color: rgb(77, 109, 202);
+    margin: none;
+    font-size: 20px;
+    padding-right: 7px;
+    font-family: cursive;
+}
+.contact_a {
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+}
+.main {
+    background-color: #f6f6f6;
+    height: auto;
+    margin-left: auto;
+    height: auto;
+    margin-right: 35px;
+    width: 970px;
+    font-family: cursive;
+}
+.wrapper-main {
+    max-width: 880px;
+    margin: 0 auto;
+    font-family: cursive;
+}
+.main__h1-1 {
+    padding-top: 20px;
+    color: rgb(18, 18, 118);
+    font-family: "poppins";
+    font-weight: 500;
+    padding-left: 30px;
+    font-family: cursive;
+}
+.men_haqimda {
+    font-family: "poppins";
+    padding-bottom: 40px;
+    max-width: 1400px;
+    padding-left: 20px;
+    font-family: cursive;
+}
+.lorem__a {
+    color: rgb(92, 77, 227);
+    font-family: cursive;
+}
+.skill {
+    padding-bottom: 60px;
+    font-family: cursive;
+}
+.skills {
+    color: rgb(18, 18, 118);
+    font-family: "poppins";
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.skildiv1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.divbox {
+    width: 400px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+}
+
+.skills__h3 {
+    text-transform: uppercase;
+    color: rgb(18, 18, 118);
+    font-family: cursive;
+}
+ul {
+    text-decoration: none;
+}
+.li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: cursive;
+}
+.skildiv2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.project {
+    color: rgb(18, 18, 118);
+    font-family: cursive;
+}
+.im-self {
+    font-family: cursive;
+}
+
+.links {
+    text-align: end;
+    color: black;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+.rang {
+    color: black;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+.fa-brands fa-github {
+    color: black;
+}
